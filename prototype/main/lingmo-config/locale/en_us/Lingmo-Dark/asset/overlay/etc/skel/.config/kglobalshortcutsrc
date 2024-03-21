@@ -43,7 +43,7 @@ mute=Alt+M\tVolume Mute,Volume Mute,Mute
 [ksmserver]
 Halt Without Confirmation=none,none,Halt Without Confirmation
 Lock Session=Screensaver\tAlt+Shift+Z,Meta+L\tScreensaver,Lock Session
-Log Out=Alt+Shift+X\tCtrl+Alt+Del,Ctrl+Alt+Del,Log Out
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=none,none,Log Out Without Confirmation
 Reboot Without Confirmation=none,none,Reboot Without Confirmation
 _k_friendly_name=Session Management
@@ -196,19 +196,35 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[lingmo-filemanager.desktop]
+_k_friendly_name=File Manager
+_launch=Alt+Shift+F,none,Lingmo File Manager
+
+[lingmo-leave.desktop]
+_k_friendly_name=Leave
+_launch=Alt+Shift+X,none,Lingmo Leave
+
+[lingmo-texteditor.desktop]
+_k_friendly_name=Terminal
+_launch=Alt+Shift+E,none,Lingmo Text Editor
+
+[lingmo-terminal.desktop]
+_k_friendly_name=Terminal
+_launch=Alt+Return\tAlt+Shift+A,none,Lingmo Terminal
+
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=Alt+Shift+F,Meta+E,Dolphin
+_launch=none,Meta+E,Dolphin
 
 [org.kde.kate.desktop]
 _k_friendly_name=Kate
-_launch=Alt+Shift+E,none,Kate
+_launch=none,none,Kate
 
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Alt+Return\tAlt+Shift+A\tAlt+Shift+T,Ctrl+Alt+T,Konsole
+_launch=Alt+Shift+T,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
