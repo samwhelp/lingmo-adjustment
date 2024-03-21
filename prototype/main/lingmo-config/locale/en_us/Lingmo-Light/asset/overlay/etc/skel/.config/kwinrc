@@ -11,6 +11,10 @@ Id_4=85a553d0-ddd3-4671-9963-ec510e18f55b
 Number=4
 Rows=1
 
+[Effect-Blur]
+BlurStrength=10
+NoiseStrength=0
+
 [Effect-desktopgrid]
 LayoutMode=1
 
@@ -53,11 +57,21 @@ kwin4_effect_translucencyEnabled=true
 wobblywindowsEnabled=true
 
 [TabBox]
-LayoutName=big_icons
+LayoutName=lingmo_thumbnail
 
 [TabBoxAlternative]
-LayoutName=coverswitch
+LayoutName=present_windows
 
 [Windows]
+BorderlessMaximizedWindows=false
+FocusStealingPreventionLevel=0
+HideUtilityWindowsForInactive=false
 Placement=Centered
 RollOverDesktops=true
+
+[org.kde.kdecoration2]
+BorderSize=Normal
+ButtonsOnLeft=
+ButtonsOnRight=HIAX
+library=org.lingmo.decoration
+theme=
