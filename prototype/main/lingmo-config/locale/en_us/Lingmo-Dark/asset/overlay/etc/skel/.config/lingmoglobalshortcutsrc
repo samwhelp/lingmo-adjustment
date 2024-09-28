@@ -15,10 +15,6 @@ Exec=lingmo-settings
 Comment=App Launcher
 Exec=lingmo-launcher
 
-[Alt%2BShift%2BY]
-Comment=Drop Down Terminal
-Exec=xfce4-terminal --drop-down
-
 [Alt%2BShift%2BT]
 Comment=Terminal
 Exec=xfce4-terminal
