@@ -13,3 +13,13 @@
 
 xdg-utils
 xdg-user-dirs
+
+
+
+
+##
+## ## Package / pygithub
+##
+
+## > for [~/Templates/pygithub.py]
+python3-github
