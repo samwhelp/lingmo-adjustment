@@ -8,6 +8,15 @@
 
 
 ##
+## ## Package / Kde
+##
+
+#kwin-x11
+
+
+
+
+##
 ## ## Package / Tool
 ##
 
@@ -28,8 +37,8 @@
 ## ## Package / Tool / Terminal
 ##
 
-konsole
-yakuake
+#konsole
+#yakuake
 
 
 
@@ -38,7 +47,7 @@ yakuake
 ## ## Package / Tool / File Manager
 ##
 
-dolphin
+#dolphin
 
 
 
@@ -47,8 +56,8 @@ dolphin
 ## ## Package / Tool / Text Editor
 ##
 
-kwrite
-kate
+#kwrite
+#kate
 
 
 
@@ -57,4 +66,4 @@ kate
 ## ## Package / Tool / Image Viewer
 ##
 
-gwenview
+#gwenview
