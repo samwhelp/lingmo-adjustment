@@ -12,3 +12,23 @@
 ##
 
 pcmanfm-qt
+
+
+
+
+##
+## ## Package / terminal
+##
+
+sakura
+#qterminal
+#xfce4-terminal
+
+
+
+
+##
+## ## Package / archiver
+##
+
+lxqt-archiver
