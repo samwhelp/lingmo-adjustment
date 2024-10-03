@@ -1,20 +1,58 @@
 
 
 ##
-## # font
+## # Font
 ##
 
 
 
 
 ##
-## ## Package / font
+## ## Package / Font / dejavu
 ##
 
 fonts-dejavu
+#fonts-dejavu-core
+#fonts-dejavu-extra
+#fonts-dejavu-mono
+
+
+
+
+##
+## ## Package / Font / ubuntu
+##
+
+fonts-ubuntu
+fonts-ubuntu-console
+
+
+
+
+##
+## ## Package / Font / noto
+##
 
 fonts-noto-cjk
+fonts-noto-cjk-extra
 
-fonts-liberation2
 
-#fonts-jetbrains-mono
+
+
+##
+## ## Package / Font / liberation
+##
+
+fonts-liberation
+fonts-liberation-sans-narrow
+#fonts-liberation2
+
+
+
+
+##
+## ## Package / Font / liberation
+##
+
+fonts-jetbrains-mono
+#fonts-jetbrains-mono-web
