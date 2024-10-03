@@ -13,7 +13,7 @@
 
 | Config File Path |
 | --- |
-| [~/.config/fontconfig/conf.d/99-lingmo.conf](./asset/overlay/etc/skel/.config/fontconfig/conf.d/99-lingmo.conf) |
+| [~/.config/fontconfig/conf.d/99-x-lingmo.conf](./asset/overlay/etc/skel/.config/fontconfig/conf.d/99-x-lingmo.conf) |
 
 
 
