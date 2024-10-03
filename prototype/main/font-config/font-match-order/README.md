@@ -1,6 +1,6 @@
 
 
-# Font
+# Font Config
 
 * [Config File Path](#config-file-path)
 * [Debian Package](#debian-package)
