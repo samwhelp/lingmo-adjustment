@@ -22,10 +22,12 @@
 
 | Debian Package |
 | --- |
-| [fonts-dejavu](https://packages.ubuntu.com/noble/fonts-dejavu) |
-| [fonts-noto-cjk](https://packages.ubuntu.com/noble/fonts-noto-cjk) |
-| [fonts-liberation2](https://packages.ubuntu.com/noble/fonts-liberation2) |
-| [fonts-jetbrains-mono](https://packages.ubuntu.com/noble/fonts-jetbrains-mono) |
+| [fonts-dejavu](https://packages.debian.org/stable/fonts-dejavu) |
+| [fonts-noto-cjk](https://packages.debian.org/stable/fonts-noto-cjk) |
+| [fonts-liberation](https://packages.debian.org/stable/fonts-liberation2) |
+| [fonts-jetbrains-mono](https://packages.debian.org/stable/fonts-jetbrains-mono) |
+| [fonts-ubuntu](https://packages.debian.org/stable/fonts-ubuntu) |
+| [fonts-ubuntu-console](https://packages.debian.org/stable/fonts-ubuntu-console) |
 
 
 
