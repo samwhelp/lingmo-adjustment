@@ -58,3 +58,15 @@ Exec=firefox --new-tab about:blank
 [Ctrl%2BPrint]
 Comment=Screenshot
 Exec=lingmo-screenshot
+
+[Alt%2BShift%2BR]
+Comment=Rofi Show Run
+Exec=rofi -show run
+
+[Alt%2BShift%2BD]
+Comment=Rofi Show Drun
+Exec=rofi -show drun -show-icons
+
+[Alt%2BShift%2BW]
+Comment=Rofi Show Window
+Exec=rofi -show window -show-icons
