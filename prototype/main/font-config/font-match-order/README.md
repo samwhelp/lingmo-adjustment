@@ -24,7 +24,7 @@
 | --- |
 | [fonts-dejavu](https://packages.debian.org/stable/fonts-dejavu) |
 | [fonts-noto-cjk](https://packages.debian.org/stable/fonts-noto-cjk) |
-| [fonts-liberation](https://packages.debian.org/stable/fonts-liberation2) |
+| [fonts-liberation](https://packages.debian.org/stable/fonts-liberation) |
 | [fonts-jetbrains-mono](https://packages.debian.org/stable/fonts-jetbrains-mono) |
 | [fonts-ubuntu](https://packages.debian.org/stable/fonts-ubuntu) |
 | [fonts-ubuntu-console](https://packages.debian.org/stable/fonts-ubuntu-console) |
