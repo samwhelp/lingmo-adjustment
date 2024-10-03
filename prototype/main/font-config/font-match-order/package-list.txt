@@ -1,28 +1,6 @@
 
 
 ##
-## # font
-##
-
-
-
-
-##
-## ## Package / font
-##
-
-
-fonts-liberation2
-
-#fonts-jetbrains-mono
-
-
-
-
-
-
-
-##
 ## # Font
 ##
 
