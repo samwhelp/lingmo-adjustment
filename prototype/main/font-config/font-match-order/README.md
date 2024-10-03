@@ -81,3 +81,12 @@ or run
 ``` sh
 make config-install
 ```
+
+
+
+
+## font cache update
+
+``` sh
+sudo fc-cache -fv
+```
