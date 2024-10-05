@@ -10,7 +10,6 @@
 | [~/.config/variety/variety.conf](./asset/overlay/etc/skel/.config/variety/variety.conf) |
 | [~/.config/variety/history.txt](./asset/overlay/etc/skel/.config/variety/history.txt) |
 | [~/.config/variety/.firstrun](./asset/overlay/etc/skel/.config/variety/.firstrun) |
-variety.desktop) |
 
 
 | Config File Path |
