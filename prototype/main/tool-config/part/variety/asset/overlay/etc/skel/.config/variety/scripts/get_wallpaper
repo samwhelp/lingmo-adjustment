@@ -10,14 +10,14 @@ desktop="$DESKTOP_SESSION"
 if [ "$desktop" == "ubuntu" ] || [ "$XDG_CURRENT_DESKTOP" == "Unity" ]; then
         gsettings get org.gnome.desktop.background picture-uri
 
+# XFCE
+elif [ "$desktop" == "xubuntu" ] || [ "$XDG_CURRENT_DESKTOP" == "XFCE" ]; then
+        xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image
+
 # Lingmo OS
 elif [ "$XDG_CURRENT_DESKTOP" == "Lingmo" ]; then
 
         qdbus com.lingmo.Settings /Theme com.lingmo.Theme.wallpaper
-
-# XFCE
-elif [ "$desktop" == "xubuntu" ] || [ "$XDG_CURRENT_DESKTOP" == "XFCE" ]; then
-        xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image
 
 # LXDE/PCManFM
 elif [ "$XDG_CURRENT_DESKTOP" == "LXDE" ]; then
