@@ -6,11 +6,17 @@
 
 | Config File Path |
 | --- |
-| [~/.config/autostart/variety.desktop](./asset/overlay/etc/skel/.config/autostart/
+| [~/.config/autostart/variety.desktop](./asset/overlay/etc/skel/.config/autostart/variety.desktop) |
 | [~/.config/variety/variety.conf](./asset/overlay/etc/skel/.config/variety/variety.conf) |
 | [~/.config/variety/history.txt](./asset/overlay/etc/skel/.config/variety/history.txt) |
 | [~/.config/variety/.firstrun](./asset/overlay/etc/skel/.config/variety/.firstrun) |
 variety.desktop) |
+
+
+| Config File Path |
+| --- |
+| [~/.config/variety/scripts/get_wallpaper](./asset/overlay/etc/skel/.config/variety/scripts/get_wallpaper) |
+| [~/.config/variety/scripts/set_wallpaper](./asset/overlay/etc/skel/.config/variety/scripts/set_wallpaper) |
 
 
 
