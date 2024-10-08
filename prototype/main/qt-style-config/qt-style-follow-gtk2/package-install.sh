@@ -50,9 +50,9 @@ main_package_install () {
 	## ## Debian or Ubuntu
 	##
 
-	# sudo qt_style-get install $(cat package-list.txt)
-	# sudo qt_style-get install $(main_package_find_list_raw)
-	sudo qt_style-get install $(main_package_find_list)
+	# sudo apt-get install $(cat package-list.txt)
+	# sudo apt-get install $(main_package_find_list_raw)
+	sudo apt-get install $(main_package_find_list)
 
 
 	##
