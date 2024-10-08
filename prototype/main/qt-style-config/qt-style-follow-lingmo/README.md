@@ -14,10 +14,10 @@
 
 
 
-## Project
+## Source
 
-| Project |
-| ------- |
+| Source |
+| ------ |
 | GitHub / LingmoOS / [lingmo-qt-plugins](https://github.com/LingmoOS/lingmo-qt-plugins) |
 
 
