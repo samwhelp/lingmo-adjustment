@@ -1,0 +1,20 @@
+
+
+##
+## # Qt Style
+##
+
+
+
+
+##
+## ## Package / Qt Style
+##
+
+
+#qt5-style-plugins
+
+qt5-gtk2-platformtheme
+#qt5-style-plugin-cleanlooks
+#qt5-style-plugin-motif
+#qt5-style-plugin-plastique
