@@ -1,0 +1,15 @@
+
+
+##
+## # Qt Style
+##
+
+
+
+
+##
+## ## Package / Qt Style
+##
+
+
+qt5-style-kvantum
