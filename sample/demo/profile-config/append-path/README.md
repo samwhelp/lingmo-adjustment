@@ -5,6 +5,13 @@
 
 
 
+## Link
+
+* [About `pkexec` and `PATH`](https://github.com/orgs/LingmoOS/discussions/25)
+
+
+
+
 ## Config File Path
 
 | Config File Path |
