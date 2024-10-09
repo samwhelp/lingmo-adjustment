@@ -55,10 +55,6 @@ Exec=lingmo-texteditor
 Comment=Web Browser
 Exec=firefox --new-tab about:blank
 
-[Ctrl%2BPrint]
-Comment=Screenshot
-Exec=lingmo-screenshot
-
 [Alt%2BShift%2BR]
 Comment=Rofi Show Run
 Exec=rofi -show run
