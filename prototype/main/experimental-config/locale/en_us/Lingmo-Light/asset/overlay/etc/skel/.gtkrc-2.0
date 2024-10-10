@@ -2,8 +2,6 @@
 ##
 ## ~/.gtkrc-2.0
 ##
-## > Created by lxqt-config-appearance
-##
 
 gtk-theme-name="Lingmo-light"
 gtk-icon-theme-name="Crule-light"
