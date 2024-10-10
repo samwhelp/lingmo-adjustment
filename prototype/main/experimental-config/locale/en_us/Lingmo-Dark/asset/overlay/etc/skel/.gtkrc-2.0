@@ -5,7 +5,7 @@
 
 gtk-theme-name="Lingmo-dark"
 gtk-icon-theme-name="Crule-dark"
-gtk-font-name="Sans 12"
+gtk-font-name="Noto Sans 12"
 gtk-cursor-theme-name="lingmo-dark"
 gtk-cursor-theme-size=24
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
