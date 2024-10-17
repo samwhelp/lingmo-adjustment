@@ -13,8 +13,8 @@
 | ----------- |
 | [~/.config/lingmoos/theme.conf](asset/overlay/etc/skel/.config/lingmoos/theme.conf) |
 | [~/.config/Kvantum/kvantum.kvconfig](asset/overlay/etc/skel/.config/Kvantum/kvantum.kvconfig) |
-| [~/.gtkrc-2.0](asset/overlay/etc/skel/.gtkrc-2.0) |
 | [~/.config/gtk-3.0/settings.ini](asset/overlay/etc/skel/.config/gtk-3.0/settings.ini) |
+| [~/.gtkrc-2.0](asset/overlay/etc/skel/.gtkrc-2.0) |
 | [~/.icons/default/index.theme](asset/overlay/etc/skel/.icons/default/index.theme) |
 
 
