@@ -24,7 +24,7 @@
 ## Theme Source
 
 | Theme Source |
-| ---------- |
+| ------------ |
 | vinceliuice / [Fluent-kde](https://github.com/vinceliuice/Fluent-kde) |
 | vinceliuice / [Fluent-gtk-theme](https://github.com/vinceliuice/Fluent-gtk-theme) |
 | yeyushengfan258 / [Citrus-icon-theme](https://github.com/yeyushengfan258/Citrus-icon-theme) |
