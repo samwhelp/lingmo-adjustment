@@ -3,6 +3,7 @@
 # Lingmo Adjustment / Style
 
 * [Config File](#config-file)
+* [Theme Source](#theme-source)
 * [Howto](#howto)
 
 
@@ -16,6 +17,17 @@
 | [~/.config/gtk-3.0/settings.ini](asset/overlay/etc/skel/.config/gtk-3.0/settings.ini) |
 | [~/.gtkrc-2.0](asset/overlay/etc/skel/.gtkrc-2.0) |
 | [~/.icons/default/index.theme](asset/overlay/etc/skel/.icons/default/index.theme) |
+
+
+
+
+## Theme Source
+
+| Theme Source |
+| ------------ |
+| vinceliuice / [Vimix-kde](https://github.com/vinceliuice/Vimix-kde) |
+| vinceliuice / [Vimix-gtk-themes](https://github.com/vinceliuice/Vimix-gtk-themes) |
+| yeyushengfan258 / [Citrus-icon-theme](https://github.com/yeyushengfan258/Citrus-icon-theme) |
 
 
 
