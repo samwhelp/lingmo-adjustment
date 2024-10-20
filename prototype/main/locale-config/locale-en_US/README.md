@@ -9,7 +9,7 @@
 
 | Config File Path |
 | --- |
-| [/etc/locale.gen](./asset/overlay/etc/locale.gen) |
+| [/etc/locale.gen](./asset/overlay/etc/locale.gen#L520-L521) |
 | [/etc/locale.conf](./asset/overlay/etc/locale.conf) |
 | [~/.config/lingmoos/language.conf](./asset/overlay/etc/skel/.config/lingmoos/language.conf) |
 
