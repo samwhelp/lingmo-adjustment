@@ -9,7 +9,9 @@
 
 | Config File Path |
 | --- |
-| [/etc/profile.d/qt-style.sh](./asset/overlay/etc/skel/etc/profile.d/qt-style.sh) |
+| [/etc/locale.gen](./asset/overlay/etc/skel/etc/locale.gen) |
+| [/etc/locale.config](./asset/overlay/etc/skel/etc/locale.config) |
+| [~/.config/lingmoos/language.conf](./asset/overlay/etc/skel/.config/lingmoos/language.conf) |
 
 
 
@@ -18,11 +20,7 @@
 
 | Debian Package |
 | -------------- |
-| [qt5-style-plugins](https://packages.debian.org/stable/qt5-style-plugins) |
-| [qt5-gtk2-platformtheme](https://packages.debian.org/stable/qt5-gtk2-platformtheme) |
-| [qt5-style-plugin-cleanlooks](https://packages.debian.org/stable/qt5-style-plugin-cleanlooks) |
-| [qt5-style-plugin-motif](https://packages.debian.org/stable/qt5-style-plugin-motif) |
-| [qt5-style-plugin-plastique](https://packages.debian.org/stable/qt5-style-plugin-plastique) |
+| [locales](https://packages.debian.org/stable/locales) |
 
 
 
