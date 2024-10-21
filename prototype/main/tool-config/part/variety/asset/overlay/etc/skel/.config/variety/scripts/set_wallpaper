@@ -220,7 +220,7 @@ fi
 
 # LXQt/PCmanFM-qt
 if [ "$XDG_CURRENT_DESKTOP" == "LXQt" ]; then
-    pcmanfm-qt --set-wallpaper "$WP" 2> /dev/null
+    pcmanfm-qt --wallpaper-mode zoom --set-wallpaper "$WP" 2> /dev/null
 fi
 
 # For simple WMs, use either feh or nitrogen
