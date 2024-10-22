@@ -46,6 +46,18 @@ sddm_config_install_by_dir () {
 	sudo cp -rf "./asset/overlay/etc/." "/etc"
 
 
+
+
+	echo
+	echo "sudo install -dm755 /usr/share/sddm/themes"
+	sudo install -dm755 "/usr/share/sddm/themes"
+
+
+	echo
+	echo "sudo cp -rf ./asset/overlay/usr/share/sddm/themes/. /usr/share/sddm/themes"
+	sudo cp -rf "./asset/overlay/usr/share/sddm/themes/." "/usr/share/sddm/themes"
+
+
 	return 0
 
 }
