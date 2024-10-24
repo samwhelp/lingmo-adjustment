@@ -35,10 +35,9 @@ THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 
 portal_build () {
 
-	util_error_echo 'portal_build'
-
 
 	mod_build
+
 
 	mod_main_signal_bind
 

@@ -7,7 +7,50 @@
 
 sys_build () {
 
-	util_error_echo "sys_build"
+	local target_path="${1}"
+
+
+	if ! [ -d "${target_path}" ]; then
+
+		util_error_echo
+		util_error_echo "##"
+		util_error_echo "## ## build_repo_not_exists: ${target_path}"
+		util_error_echo "##"
+		util_error_echo
+
+		return 0
+
+	fi
+
+
+
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## sys_build"
+	util_error_echo "##"
+	util_error_echo
+
+
+
+
+	util_error_echo
+	util_error_echo cd "${target_path}"
+	util_error_echo
+	cd "${target_path}"
+
+
+	util_error_echo
+	util_error_echo dpkg-buildpackage -b -uc -us -tc -j$(nproc)
+	util_error_echo
+	dpkg-buildpackage -b -uc -us -tc -j$(nproc)
+
+
+	util_error_echo
+	util_error_echo cd "${OLDPWD}"
+	util_error_echo
+	cd "${OLDPWD}"
+
 
 	return 0
 

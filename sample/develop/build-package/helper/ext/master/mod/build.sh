@@ -7,9 +7,7 @@
 
 mod_build () {
 
-	util_error_echo "mod_build"
-
-	sys_build
+	sys_build "./tmp/lingmo-core/src/lingmo-core"
 
 	return 0
 
