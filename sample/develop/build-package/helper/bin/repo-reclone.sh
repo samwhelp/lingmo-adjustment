@@ -30,24 +30,25 @@ THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 
 
 ################################################################################
-### Head: Model / Prepare
+### Head: Portal / repo_reclone
 ##
 
-mod_prepare () {
+portal_repo_reclone () {
 
-	util_error_echo 'mod_prepare'
+	util_error_echo 'portal_repo_reclone'
 
 
-	util_error_echo "_Conf_Repo_Tag_: ${_Conf_Repo_Tag_}"
+	mod_repo_reclone
 
 	mod_main_signal_bind
 
-	sleep 10;
+
+	return 0
 
 }
 
 ##
-### Tail: Model / Prepare
+### Tail: Portal / repo_reclone
 ################################################################################
 
 
@@ -57,7 +58,7 @@ mod_prepare () {
 
 __main__ () {
 
-	mod_prepare "${@}"
+	portal_repo_reclone "${@}"
 
 }
 

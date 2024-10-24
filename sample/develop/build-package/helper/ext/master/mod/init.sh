@@ -6,5 +6,12 @@
 
 
 ##
+## Load: Master / Mod / Repo
+##
+
+. "${THE_MAIN_EXT_MASTER_MOD_DIR_PATH}/repo.sh"
+
+
+##
 ### Tail: Master / Mod / Init
 ################################################################################

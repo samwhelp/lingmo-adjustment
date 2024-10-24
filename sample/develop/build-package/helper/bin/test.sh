@@ -30,59 +30,24 @@ THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 
 
 ################################################################################
-### Head: Portal / help
+### Head: Portal / test
 ##
 
+portal_test () {
 
-mod_help () {
-
-
-cat << EOF
-
-Usage:
-
-	$ make [action]
-
-Example:
-
-	$ make
-	$ make help
-
-	$ make repo-clone
-	$ make repo-reclone
-
-	$ make build-essential
-	$ make build-dep
-	$ make build
+	util_error_echo 'portal_test'
 
 
-Debug:
-	$ export DEBUG_HELPER=true
-
-EOF
-
-
-	return 0
-
-}
-
-
-portal_help () {
-
-	#util_error_echo 'portal_help'
-
-
-	mod_help
+	util_error_echo "_Conf_Repo_Tag_: ${_Conf_Repo_Tag_}"
 
 	mod_main_signal_bind
 
-
-	return 0
+	sleep 10;
 
 }
 
 ##
-### Tail: Portal / help
+### Tail: Portal / test
 ################################################################################
 
 
@@ -92,7 +57,7 @@ portal_help () {
 
 __main__ () {
 
-	portal_help "${@}"
+	portal_test "${@}"
 
 }
 
