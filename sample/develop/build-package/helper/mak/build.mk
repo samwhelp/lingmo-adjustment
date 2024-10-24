@@ -12,4 +12,9 @@ build-dep:
 
 build-essential:
 	@build-essential.sh
-.PHONY: bbuild-essential
+.PHONY: build-essential
+
+
+sure-build:
+	@sure-build.sh
+.PHONY: sure-build
