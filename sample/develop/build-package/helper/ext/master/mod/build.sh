@@ -7,7 +7,7 @@
 
 mod_build () {
 
-	sys_build "./tmp/lingmo-core/src/lingmo-core"
+	sys_build "${REF_BUILD_PRJ_DIR_PATH}"
 
 	return 0
 
@@ -16,7 +16,7 @@ mod_build () {
 
 mod_build_dep () {
 
-	sys_build_dep "./tmp/lingmo-core/src/lingmo-core"
+	sys_build_dep "${REF_BUILD_PRJ_DIR_PATH}"
 
 	return 0
 
