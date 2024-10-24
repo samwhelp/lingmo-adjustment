@@ -7,7 +7,7 @@
 
 mod_repo_clone () {
 
-	sys_repo_clone "https://github.com/LingmoOS/lingmo-core.git" "${REF_BUILD_PRJ_DIR_PATH}" "2.0.1" "true"
+	sys_repo_clone "${REF_BUILD_REPO_CLONE_URI}" "${REF_BUILD_PRJ_DIR_PATH}" "${REF_BUILD_REPO_CLONE_BRANCH}" "${REF_BUILD_REPO_CLONE_USE_BRANCH}"
 
 	return 0
 
@@ -16,7 +16,7 @@ mod_repo_clone () {
 
 mod_repo_reclone () {
 
-	sys_repo_reclone "https://github.com/LingmoOS/lingmo-core.git" "${REF_BUILD_PRJ_DIR_PATH}" "2.0.1" "true"
+	sys_repo_reclone "${REF_BUILD_REPO_CLONE_URI}" "${REF_BUILD_PRJ_DIR_PATH}" "${REF_BUILD_REPO_CLONE_BRANCH}" "${REF_BUILD_REPO_CLONE_USE_BRANCH}"
 
 	return 0
 
