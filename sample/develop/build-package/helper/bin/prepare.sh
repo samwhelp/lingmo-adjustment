@@ -37,6 +37,9 @@ mod_prepare () {
 
 	util_error_echo 'mod_prepare'
 
+
+	util_error_echo "_Conf_Repo_Tag_: ${_Conf_Repo_Tag_}"
+
 	mod_main_signal_bind
 
 	sleep 10;
