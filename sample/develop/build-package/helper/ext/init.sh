@@ -38,6 +38,7 @@ base_var_dump
 
 . "${THE_MAIN_EXT_MAIN_DIR_PATH}/init.sh"
 
+
 ##
 ### Tail: Main / Init
 ################################################################################
@@ -54,6 +55,7 @@ base_var_dump
 
 . "${THE_MAIN_EXT_MASTER_DIR_PATH}/init.sh"
 
+
 ##
 ### Tail: Master / Init
 ################################################################################
@@ -69,6 +71,18 @@ base_var_dump
 ##
 
 . "${THE_MASTER_ASSET_CONFIG_DIR_PATH}/init.sh"
+
+
+##
+## ## Load: Master / Base
+##
+
+. "${THE_MAIN_EXT_MASTER_DIR_PATH}/base.sh"
+
+master_var_init
+
+master_var_dump
+
 
 ##
 ### Tail: Config / Init
