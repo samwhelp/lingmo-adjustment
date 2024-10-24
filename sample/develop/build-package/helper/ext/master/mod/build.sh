@@ -25,9 +25,7 @@ mod_build_dep () {
 
 mod_build_essential () {
 
-	util_error_echo "mod_build_essential"
-
-	sys_build_essential
+	sys_build_essential "${REF_BUILD_ESSENTIAL_PACKAGES}"
 
 	return 0
 

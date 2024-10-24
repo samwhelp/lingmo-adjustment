@@ -29,6 +29,14 @@ master_var_init () {
 	fi
 
 
+	REF_BUILD_ESSENTIAL_PACKAGES="${_Conf_Build_Essential_Packages_}"
+
+	if [ -z "${REF_BUILD_ESSENTIAL_PACKAGES}" ]; then
+
+		REF_BUILD_ESSENTIAL_PACKAGES="git devscripts equivs"
+
+	fi
+
 
 
 	##
@@ -85,7 +93,10 @@ master_var_dump () {
 	util_debug_echo "_Conf_Repo_Name_=${_Conf_Repo_Name_}"
 	util_debug_echo "_Conf_Repo_Repository_=${_Conf_Repo_Repository_}"
 	util_debug_echo "_Conf_Repo_Tag_=${_Conf_Repo_Tag_}"
-	util_debug_echo "_Conf_Repo_BuildType_=${_Conf_Repo_BuildType_}"
+
+	util_debug_echo "_Conf_Build_Type_=${_Conf_Build_Type_}"
+	util_debug_echo "_Conf_Build_Essential_Packages_=${_Conf_Build_Essential_Packages_}"
+
 	util_debug_echo
 
 
@@ -101,6 +112,8 @@ master_var_dump () {
 	util_debug_echo "REF_BUILD_REPO_CLONE_URI=${REF_BUILD_REPO_CLONE_URI}"
 	util_debug_echo "REF_BUILD_REPO_CLONE_BRANCH=${REF_BUILD_REPO_CLONE_BRANCH}"
 	util_debug_echo "REF_BUILD_REPO_CLONE_USE_BRANCH=${REF_BUILD_REPO_CLONE_USE_BRANCH}"
+	util_debug_echo "REF_BUILD_ESSENTIAL_PACKAGES=${REF_BUILD_ESSENTIAL_PACKAGES}"
+
 
 
 
