@@ -7,6 +7,17 @@
 master_var_init () {
 
 
+	##
+	## ## Build Path
+	##
+
+	REF_BUILD_TMP_DIR_PATH="${THE_MASTER_TMP_DIR_PATH}"
+
+
+	##
+	## ## Build Path / Sub
+	##
+
 	return 0
 
 }
@@ -39,6 +50,18 @@ master_var_dump () {
 	util_debug_echo "_Conf_Repo_Tag_=${_Conf_Repo_Tag_}"
 	util_debug_echo "_Conf_Repo_UseBranchType_=${_Conf_Repo_UseBranchType_}"
 	util_debug_echo "_Conf_Repo_BuildType_=${_Conf_Repo_BuildType_}"
+	util_debug_echo
+
+
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Build"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "REF_BUILD_TMP_DIR_PATH=${REF_BUILD_TMP_DIR_PATH}"
 	util_debug_echo
 
 
