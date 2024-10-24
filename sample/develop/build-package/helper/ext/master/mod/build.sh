@@ -18,9 +18,7 @@ mod_build () {
 
 mod_build_dep () {
 
-	util_error_echo "mod_build_dep"
-
-	sys_build_dep
+	sys_build_dep "./tmp/lingmo-core/src/lingmo-core"
 
 	return 0
 
