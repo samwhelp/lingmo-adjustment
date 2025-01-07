@@ -1,0 +1,22 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+
+
+
+menuentry "LingmoOS ISO / Hydrogen" --class Debian {
+	set iso_file="/opt/iso/LingmoOS/latest/lingmo-os-2.0-hydrogen-release-desktop-amd64.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	#set boot_option="components splash quiet"
+	#set boot_option="components locales=zh_TW.UTF-8 quiet splash"
+	#set boot_option="username=lingmo noautologin"
+	set boot_option=""
+	linux (loop)/live/vmlinuz boot=live buuid=$iso_partition_uuid findiso=$iso_file $boot_option
+	initrd (loop)/live/initrd.img
+}
