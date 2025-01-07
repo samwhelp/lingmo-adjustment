@@ -1,0 +1,2 @@
+https://releases.lingmo.org.cn/d/releases/2.1/amd64/lingmo-os-2.1-hydrogen-release-desktop-amd64.iso
+https://releases.lingmo.org.cn/d/releases/2.1/amd64/sha256.txt

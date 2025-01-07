@@ -1,8 +1,12 @@
 
 
-# demo-boot-lingmo-hydrogen-iso
+# demo-boot-lingmo-iso
 
-* [https://sourceforge.net/projects/lingmo-os/files/release/iso/hydrogen/stable/](https://sourceforge.net/projects/lingmo-os/files/release/iso/hydrogen/stable/)
+
+## Lingmo OS 2.1 Hydrogen
+
+* [Lingmo OS 2.1 Hydrogen Released!](https://github.com/orgs/LingmoOS/discussions/34)
+* [https://releases.lingmo.org.cn/releases/2.1/amd64](https://releases.lingmo.org.cn/releases/2.1/amd64)
 
 
 

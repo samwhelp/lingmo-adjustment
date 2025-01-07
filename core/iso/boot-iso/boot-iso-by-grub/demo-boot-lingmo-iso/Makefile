@@ -29,6 +29,8 @@ help:
 	@echo
 	@echo '	$$ make iso-download'
 	@echo
+	@echo '	$$ make checksum'
+	@echo
 	@echo '	$$ make update-grub'
 	@echo
 	@echo '	$$ make config-40_custom'
@@ -61,6 +63,11 @@ prepare:
 iso-download:
 	$(THE_PLAN_DIR_PATH)/iso-download.sh
 .PHONY: iso-download
+
+
+checksum:
+	$(THE_PLAN_DIR_PATH)/checksum.sh
+.PHONY: checksum
 
 
 update-grub:
