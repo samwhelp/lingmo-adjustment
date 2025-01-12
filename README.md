@@ -12,6 +12,7 @@
 ## Subject
 
 * [Adjustment](#adjustment)
+* [Packaging](#packaging)
 * [Link](#link)
 
 
@@ -28,6 +29,16 @@
 | ---------- | ----------- |
 | [Lingmo-Dark](https://github.com/samwhelp/lingmo-adjustment/tree/main/prototype/main/lingmo-config/locale/en_us/Lingmo-Dark) | [Config File](https://github.com/samwhelp/lingmo-adjustment/tree/main/prototype/main/lingmo-config/locale/en_us/Lingmo-Dark/asset/overlay/etc/skel/.config) |
 | [Lingmo-Light](https://github.com/samwhelp/lingmo-adjustment/tree/main/prototype/main/lingmo-config/locale/en_us/Lingmo-Light) | [Config File](https://github.com/samwhelp/lingmo-adjustment/tree/main/prototype/main/lingmo-config/locale/en_us/Lingmo-Light/asset/overlay/etc/skel/.config) |
+
+
+
+
+## Packaging
+
+| Link | GitHub |
+| ---- | ------ |
+| [deb-recipe](https://samwhelp.github.io/deb-recipe/) | [GitHub](https://github.com/samwhelp/deb-recipe) |
+| [deb-coffee](https://samwhelp.github.io/deb-coffee/) | [GitHub](https://github.com/samwhelp/deb-coffee) |
 
 
 
