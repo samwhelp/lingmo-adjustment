@@ -70,7 +70,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + f";
-	$item['Action'] = "Launch File Manager (dolphin)";
+	$item['Action'] = "Launch File Manager (lingmo-filemanager)";
 	$list[] = $item;
 
 	$item = array();
@@ -80,7 +80,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + e";
-	$item['Action'] = "Launch Text Editor (kate)";
+	$item['Action'] = "Launch Text Editor (lingmo-texteditor)";
 	$list[] = $item;
 
 	$item = array();
@@ -90,7 +90,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + s";
-	$item['Action'] = "Launch System Setting (systemsettings)";
+	$item['Action'] = "Launch System Setting (lingmo-settings)";
 	$list[] = $item;
 
 /*
@@ -102,12 +102,12 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Enter";
-	$item['Action'] = "Launch Terminal (konsole)";
+	$item['Action'] = "Launch Terminal (lingmo-terminal)";
 	$list[] = $item;
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + a";
-	$item['Action'] = "Launch Terminal (konsole)";
+	$item['Action'] = "Launch Terminal (lingmo-terminal)";
 	$list[] = $item;
 
 	$item = array();
@@ -117,7 +117,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + t";
-	$item['Action'] = "Launch Terminal (konsole)";
+	$item['Action'] = "Launch Terminal (lingmo-terminal)";
 	$list[] = $item;
 
 	$item = array();
