@@ -5,6 +5,10 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Lingmo OS Adjustment](https://samwhelp.github.io/lingmo-adjustment/) | [GitHub](https://github.com/samwhelp/lingmo-adjustment) |
+| [Lingmo OS Note](https://samwhelp.github.io/note-about-lingmo/) | [GitHub](https://github.com/samwhelp/note-about-lingmo) |
+
+
+> [Keybind Cheatsheet](https://samwhelp.github.io/lingmo-adjustment/read/cheatsheet/keybind.html)
 
 
 
